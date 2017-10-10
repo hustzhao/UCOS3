@@ -39,9 +39,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\app.c">
-      <Filter>App</Filter>
-    </ClCompile>
     <ClCompile Include="..\os_app_hooks.c">
       <Filter>App</Filter>
     </ClCompile>
@@ -125,6 +122,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\uCOS-III\Source\os_cfg_app.c">
       <Filter>uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app_demo.c">
+      <Filter>App</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
